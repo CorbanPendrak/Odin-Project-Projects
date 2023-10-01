@@ -18,6 +18,7 @@ const THEME_COLOR = (data_theme ? data_theme : "2F4F4FFF");
 
 // Create HTML calculator
 CALCULATOR.innerHTML = `<div class="calculator-display">0</div>\
+<div id="calculator-buttons">\
      <div class="button-row">
             <button id="calculator-AC" class="calculator-buttons clear">AC</button>
             <button id="calculator-+/-" class="calculator-buttons posneg">+/-</button>
